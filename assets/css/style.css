@@ -1,0 +1,95 @@
+/* Importacao das fontes padrao usadas em todo site */
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/* Adicionando as variaveis */
+:root {
+    --font-1: sans-serif;
+    --font-2: 'Passion One', cursive;
+    --font-3: 'Sriracha', cursive;
+    /* color */
+    --color-1: #ffffff;
+    --color-2: #000000;
+}
+/* Configuracoes padrao */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+}
+/* Configurando header */
+header {
+    background-color: var(--color-2);
+    color: var(--color-1);
+    text-align: center;
+}
+header h1 {
+    font-family: var(--font-2);
+    font-variant: small-caps;
+    font-size: 7vw;
+    padding-top: 20px;
+}
+header p {
+    font-family: var(--font-1);
+    padding-bottom: 20px;
+}
+header a {
+    color: var(--color-1);
+    font-weight: bold;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+}
+/* Corpo dos site */
+article {
+    margin-top: 30px;
+}
+article section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+article section p {
+    font-family: var(--font-3);
+    font-size: 2vw;
+    padding: 20px 30px;
+}
+article .image1 {
+    background-color: #999;
+    background-image: url('/assets/image/joaninha.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 2px 2px 7px 1px rgba(0, 0, 0, 0.432);
+}
+article .image2 {
+    background-color: #999;
+    background-image: url('/assets/image/texto.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 2px 2px 7px 1px rgba(0, 0, 0, 0.432);
+}
+article .image1 p,
+article .image2 p {
+    color: var(--color-1);
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.658);
+}
+/* Rodape do site */
+footer {
+    padding: 10px;
+    background-color: var(--color-2);
+    color: var(--color-1);
+    text-align: center;
+    font-size: 1.2vw;
+}
+footer a {
+    color: var(--color-1);
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
