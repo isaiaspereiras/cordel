@@ -57,7 +57,7 @@ article section p {
 }
 article .image1 {
     background-color: #999;
-    background-image: url('assets/image/joaninha.jpg');
+    background-image: url('/assets/image/joaninha.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ article .image1 {
 }
 article .image2 {
     background-color: #999;
-    background-image: url('assets/image/texto.jpg');
+    background-image: url('/assets/image/texto.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
